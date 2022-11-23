@@ -9,7 +9,7 @@ function distanceFromHqInBlocks(location) {
     return scuberHq - location
    }
 }
-distanceFromHqInBlocks(43)
+distanceFromHqInBlocks()
 
 function distanceFromHqInFeet(translation) {
     let block = distanceFromHqInBlocks(translation)
